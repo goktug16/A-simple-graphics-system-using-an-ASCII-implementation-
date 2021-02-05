@@ -20,7 +20,15 @@ A Shape is invisible unless it is draw() n. For example: w.draw(Dot(w.current())
 Every Shape has 9 contact points: e(east), w(west), n(north), s(south), ne, nw, se,sw and c (center).
 For example: Line(x.c(), y.nw()); creates a line from x’s center to y’s top left corner. Note that south
 and north directions are defined according to the display window; hence, north of a shape is on the
-upper part, while south is on the lower part on the display window (Figure 1, Figure 2). 
+upper part, while south is on the lower part on the display window (Figure 1, Figure 2).
+
+- Figure 1 
+
+![](images/fig_1.png)
+
+- Figure  
+
+![](images/fig_2.png)
 
 
 
